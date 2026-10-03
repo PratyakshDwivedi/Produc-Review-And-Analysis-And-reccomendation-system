@@ -13,7 +13,17 @@ aspect-based insights, summaries, and explainable recommendations.
 Built incrementally in phases. Phase 1 (project setup, dataset, and the
 frontend ↔ backend connection) is complete.
 
-## Setup
+## Run (single app, one link)
+Serves the React UI and the API together from one server at
+http://127.0.0.1:8000:
+```bash
+py -3.11 -m venv .venv
+.venv\Scripts\activate          # Windows
+pip install -r requirements.txt
+python run.py                   # builds the frontend, then serves everything
+```
+
+## Setup (separate dev servers)
 
 ### Backend
 ```bash

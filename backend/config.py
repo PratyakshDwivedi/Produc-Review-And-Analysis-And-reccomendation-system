@@ -15,6 +15,9 @@ RAW_DATA_DIR = DATA_DIR / "raw"
 PRODUCTS_CSV = RAW_DATA_DIR / "products.csv"
 REVIEWS_CSV = RAW_DATA_DIR / "reviews.csv"
 
+# Built frontend (served by FastAPI as a single app when present).
+FRONTEND_DIST = BASE_DIR / "frontend" / "dist"
+
 # MongoDB (configured now, actually integrated in a later phase).
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "product_review_analysis")

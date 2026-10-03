@@ -1,6 +1,7 @@
 """FastAPI application entry point."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from backend import config
 from backend.database import connection
@@ -24,3 +25,11 @@ app.include_router(review_routes.router)
 def health():
     """Service health check. Reports whether MongoDB is reachable."""
     return {"status": "ok", "mongodb": connection.ping()}
+
+
+# Serve the built React frontend as a single app (one port) when it exists.
+# Build it with `npm run build` in frontend/. API routes above take precedence.
+if config.FRONTEND_DIST.exists():
+    app.mount(
+        "/", StaticFiles(directory=config.FRONTEND_DIST, html=True), name="frontend"
+    )
