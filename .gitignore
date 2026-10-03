@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Models / large generated artifacts
+models/*.pkl
+models/*.joblib
+
+# Processed data (regenerable)
+data/processed/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

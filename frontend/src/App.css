@@ -1,0 +1,19 @@
+.app {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.status .ok { color: #1a7f37; font-weight: 600; }
+.status .bad { color: #cf222e; font-weight: 600; }
+
+.products { list-style: none; padding: 0; }
+.products li {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.products .cat { color: #666; }

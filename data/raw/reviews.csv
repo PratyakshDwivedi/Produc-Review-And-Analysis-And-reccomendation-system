@@ -1,0 +1,21 @@
+review_id,product_id,review_text,rating
+R001,P001,"The camera quality is excellent but the battery drains very quickly.",4
+R002,P001,"Amazing display and smooth performance while gaming.",5
+R003,P001,"Build quality feels premium though the price is a bit high.",4
+R004,P001,"Battery life is average and it heats up during long sessions.",3
+R005,P001,"Great sound and the software is clean with no bloatware.",5
+R006,P002,"Good value for money with a solid display and decent camera.",4
+R007,P002,"Performance lags sometimes and the battery could be better.",3
+R008,P002,"The design is sleek and lightweight, easy to hold all day.",4
+R009,P002,"Camera struggles in low light but is fine in daylight.",3
+R010,P002,"Fast charging is a lifesaver and the screen looks vibrant.",5
+R011,P003,"Budget friendly but the performance is slow for heavy apps.",3
+R012,P003,"Battery lasts long which is great for the price.",4
+R013,P003,"Display is dull and the camera is disappointing.",2
+R014,P003,"Decent phone for calls and basic use, nothing fancy.",3
+R015,P003,"Build quality feels cheap and plasticky.",2
+R016,P004,"Outstanding camera and the fastest performance I have used.",5
+R017,P004,"Expensive but the display and build quality justify it.",5
+R018,P004,"Battery easily lasts a full day of heavy gaming.",5
+R019,P004,"Sound quality is rich and the software is very polished.",4
+R020,P004,"Slightly heavy but the premium design looks stunning.",4

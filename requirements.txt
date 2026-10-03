@@ -1,0 +1,7 @@
+# Phase 1 runtime dependencies.
+# ML/NLP libraries (nltk, spacy, scikit-learn, etc.) are added in their own phases.
+fastapi
+uvicorn[standard]
+pandas
+python-dotenv
+pymongo
