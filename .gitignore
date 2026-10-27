@@ -22,8 +22,9 @@ frontend/.vite/
 models/*.pkl
 models/*.joblib
 
-# Processed data (regenerable)
+# Processed data (regenerable) and local JSON store (user/runtime data)
 data/processed/
+data/store/
 
 # OS / editor
 .DS_Store

@@ -1,7 +1,29 @@
-# Phase 1 runtime dependencies.
-# ML/NLP libraries (nltk, spacy, scikit-learn, etc.) are added in their own phases.
+# Backend + NLP/ML runtime dependencies.
 fastapi
 uvicorn[standard]
+pydantic[email]
+python-multipart
+
+# Data / ML
 pandas
+numpy
+scikit-learn
+joblib
+
+# NLP support
+# (baseline uses TF-IDF + scikit-learn; no large model download required)
+
+# Auth
+bcrypt
+python-jose[cryptography]
+
+# Config / storage
 python-dotenv
 pymongo
+
+# Testing
+pytest
+httpx
+
+# Optional transformer sentiment (Version 2) is NOT installed by default to keep
+# startup light. To enable: pip install transformers torch  and set ENABLE_TRANSFORMER=1
