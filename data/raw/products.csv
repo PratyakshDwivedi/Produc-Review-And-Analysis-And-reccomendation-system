@@ -1,5 +1,13 @@
-product_id,name,category,price,rating
-P001,Nova X1 Pro,smartphone,699,4.3
-P002,Zenith Edge 5,smartphone,549,4.0
-P003,Pulse Lite 4,smartphone,299,3.6
-P004,Aero Max Ultra,smartphone,999,4.5
+product_id,name,brand,category,price,description,specs
+P001,Nova X1 Pro,Nova,smartphone,699,Flagship smartphone with a focus on camera and gaming.,"{""ram"": ""8GB"", ""storage"": ""128GB"", ""screen"": ""6.5 in"", ""weight"": ""189 g""}"
+P002,Zenith Edge 5,Zenith,smartphone,549,Mid-range smartphone balancing value and display quality.,"{""ram"": ""6GB"", ""storage"": ""128GB"", ""screen"": ""6.4 in"", ""weight"": ""182 g""}"
+P003,Pulse Lite 4,Pulse,smartphone,299,Budget smartphone for everyday essentials.,"{""ram"": ""4GB"", ""storage"": ""64GB"", ""screen"": ""6.2 in"", ""weight"": ""175 g""}"
+P004,Aero Max Ultra,Aero,smartphone,999,Premium smartphone with best-in-class performance.,"{""ram"": ""12GB"", ""storage"": ""256GB"", ""screen"": ""6.7 in"", ""weight"": ""210 g""}"
+P005,Vortex Book 14,Vortex,laptop,1099,Thin-and-light laptop for productivity and travel.,"{""ram"": ""16GB"", ""storage"": ""512GB SSD"", ""screen"": ""14 in"", ""weight"": ""1.3 kg""}"
+P006,Vortex Gamer 16,Vortex,laptop,1599,High-performance gaming laptop with a fast display.,"{""ram"": ""32GB"", ""storage"": ""1TB SSD"", ""screen"": ""16 in"", ""weight"": ""2.4 kg""}"
+P007,Breeze Air 13,Breeze,laptop,749,Affordable everyday laptop for students.,"{""ram"": ""8GB"", ""storage"": ""256GB SSD"", ""screen"": ""13 in"", ""weight"": ""1.4 kg""}"
+P008,Echo Studio Pods,Echo,headphones,249,Premium noise-cancelling over-ear headphones.,"{""type"": ""Over-ear"", ""anc"": ""Yes"", ""battery"": ""30 h"", ""weight"": ""250 g""}"
+P009,Echo Buds Mini,Echo,headphones,99,Compact wireless earbuds for daily use.,"{""type"": ""In-ear"", ""anc"": ""Basic"", ""battery"": ""18 h"", ""weight"": ""45 g""}"
+P010,Tempo Sound Max,Tempo,headphones,179,Bass-heavy wireless headphones for music lovers.,"{""type"": ""Over-ear"", ""anc"": ""Yes"", ""battery"": ""24 h"", ""weight"": ""270 g""}"
+P011,Pulse Watch Fit,Pulse,smartwatch,149,Fitness-focused smartwatch with long battery life.,"{""display"": ""1.4 in AMOLED"", ""battery"": ""10 d"", ""gps"": ""Yes"", ""weight"": ""32 g""}"
+P012,Aero Watch Pro,Aero,smartwatch,329,Premium smartwatch with rich software features.,"{""display"": ""1.5 in AMOLED"", ""battery"": ""4 d"", ""gps"": ""Yes"", ""weight"": ""38 g""}"

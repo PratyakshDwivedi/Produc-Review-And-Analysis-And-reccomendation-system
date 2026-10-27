@@ -1,21 +1,196 @@
-review_id,product_id,review_text,rating
-R001,P001,"The camera quality is excellent but the battery drains very quickly.",4
-R002,P001,"Amazing display and smooth performance while gaming.",5
-R003,P001,"Build quality feels premium though the price is a bit high.",4
-R004,P001,"Battery life is average and it heats up during long sessions.",3
-R005,P001,"Great sound and the software is clean with no bloatware.",5
-R006,P002,"Good value for money with a solid display and decent camera.",4
-R007,P002,"Performance lags sometimes and the battery could be better.",3
-R008,P002,"The design is sleek and lightweight, easy to hold all day.",4
-R009,P002,"Camera struggles in low light but is fine in daylight.",3
-R010,P002,"Fast charging is a lifesaver and the screen looks vibrant.",5
-R011,P003,"Budget friendly but the performance is slow for heavy apps.",3
-R012,P003,"Battery lasts long which is great for the price.",4
-R013,P003,"Display is dull and the camera is disappointing.",2
-R014,P003,"Decent phone for calls and basic use, nothing fancy.",3
-R015,P003,"Build quality feels cheap and plasticky.",2
-R016,P004,"Outstanding camera and the fastest performance I have used.",5
-R017,P004,"Expensive but the display and build quality justify it.",5
-R018,P004,"Battery easily lasts a full day of heavy gaming.",5
-R019,P004,"Sound quality is rich and the software is very polished.",4
-R020,P004,"Slightly heavy but the premium design looks stunning.",4
+review_id,product_id,review_text,rating,date,author
+R0001,P001,"Really impressed with the camera, top notch.",5,2024-11-12,user_242
+R0002,P001,The gaming performs wonderfully day to day.,5,2024-11-26,user_130
+R0003,P001,"Loving the performance, clearly a strong point.",5,2024-12-16,user_674
+R0004,P001,"Loving the gaming, clearly a strong point. The build quality is excellent and exceeded my expectations.",5,2025-01-29,user_925
+R0005,P001,"Really impressed with the build quality, top notch. However, The price is easily the weakest part.",3,2025-01-29,user_194
+R0006,P001,"Decent battery, about what I expected. However, The price could be much better for this product. The build quality performs wonderfully day to day.",3,2025-02-18,user_665
+R0007,P001,"The price is disappointing and needs work. However, Great performance, one of the best I have used.",3,2025-03-10,user_975
+R0008,P001,"Great battery, one of the best I have used. Great build quality, one of the best I have used.",5,2025-04-04,user_786
+R0009,P001,"The battery is average for this segment. However, The display performs wonderfully day to day.",4,2025-04-27,user_755
+R0010,P001,The price is excellent and exceeded my expectations. The camera performs wonderfully day to day.,5,2025-05-17,user_167
+R0011,P001,The price is fine for the price. The performance is fine for the price.,3,2025-06-03,user_371
+R0012,P001,"The performance performs wonderfully day to day. However, The design could be much better for this product.",3,2025-06-30,user_324
+R0013,P001,"The gaming is excellent and exceeded my expectations. However, Not happy with the software at all.",3,2025-07-30,user_263
+R0014,P001,"The battery could be much better for this product. However, Loving the build quality, clearly a strong point. The performance is okay, nothing special.",3,2025-08-21,user_838
+R0015,P001,"Great gaming, one of the best I have used.",5,2025-08-23,user_400
+R0016,P001,"The display is easily the weakest part. However, Not happy with the software at all. The camera is excellent and exceeded my expectations.",2,2025-09-30,user_405
+R0017,P002,"Loving the display, clearly a strong point. However, Struggled with poor price throughout.",3,2024-11-05,user_713
+R0018,P002,"Great software, one of the best I have used. However, The camera is easily the weakest part.",3,2024-12-02,user_159
+R0019,P002,"The battery is okay, nothing special. However, Struggled with poor gaming throughout.",2,2025-01-09,user_228
+R0020,P002,"Loving the software, clearly a strong point. Really impressed with the display, top notch.",5,2025-01-22,user_873
+R0021,P002,"The design is easily the weakest part. However, Loving the build quality, clearly a strong point.",3,2025-02-09,user_223
+R0022,P002,"Loving the performance, clearly a strong point. Loving the battery, clearly a strong point.",5,2025-02-23,user_107
+R0023,P002,The camera is excellent and exceeded my expectations.,5,2025-03-18,user_172
+R0024,P002,"Really impressed with the design, top notch. However, The software is fine for the price.",4,2025-04-05,user_903
+R0025,P002,The build quality performs wonderfully day to day. The performance performs wonderfully day to day. The camera is excellent and exceeded my expectations.,5,2025-05-10,user_769
+R0026,P002,"Great camera, one of the best I have used.",5,2025-06-03,user_982
+R0027,P002,"Loving the performance, clearly a strong point.",5,2025-06-13,user_243
+R0028,P002,"The display is excellent and exceeded my expectations. Loving the design, clearly a strong point. Loving the performance, clearly a strong point.",5,2025-06-19,user_195
+R0029,P002,"Really impressed with the display, top notch. However, The build quality is disappointing and needs work.",3,2025-07-15,user_488
+R0030,P002,The build quality performs wonderfully day to day.,5,2025-08-09,user_533
+R0031,P002,"The display is excellent and exceeded my expectations. However, The performance is okay, nothing special. The gaming is disappointing and needs work.",3,2025-08-21,user_698
+R0032,P002,"The gaming is disappointing and needs work. However, The display is okay, nothing special. The camera is average for this segment.",2,2025-09-22,user_222
+R0033,P003,"Decent camera, about what I expected. However, Not happy with the battery at all.",2,2024-11-26,user_833
+R0034,P003,"Decent performance, about what I expected. The design is okay, nothing special.",3,2024-11-25,user_569
+R0035,P003,"Loving the battery, clearly a strong point.",5,2024-12-24,user_235
+R0036,P003,"Really impressed with the battery, top notch. However, Decent performance, about what I expected.",4,2025-01-24,user_926
+R0037,P003,"The gaming is okay, nothing special.",3,2025-01-30,user_370
+R0038,P003,"Really impressed with the battery, top notch.",5,2025-02-24,user_388
+R0039,P003,"Great price, one of the best I have used. However, Decent performance, about what I expected.",4,2025-03-09,user_194
+R0040,P003,"Really impressed with the design, top notch. However, The camera is easily the weakest part. The software performs wonderfully day to day.",4,2025-04-15,user_822
+R0041,P003,"Really impressed with the gaming, top notch. However, Decent camera, about what I expected. The software is average for this segment.",4,2025-05-02,user_230
+R0042,P003,The design is excellent and exceeded my expectations.,5,2025-05-20,user_315
+R0043,P003,"The battery performs wonderfully day to day. However, Not happy with the price at all.",3,2025-06-06,user_985
+R0044,P003,"Great display, one of the best I have used. However, The build quality could be much better for this product.",3,2025-07-14,user_785
+R0045,P003,"The design is disappointing and needs work. However, The display is excellent and exceeded my expectations.",3,2025-07-25,user_327
+R0046,P003,"Really impressed with the software, top notch. Really impressed with the price, top notch.",5,2025-08-12,user_436
+R0047,P003,"Loving the battery, clearly a strong point. Loving the design, clearly a strong point.",5,2025-08-30,user_128
+R0048,P003,"Great design, one of the best I have used.",5,2025-09-11,user_211
+R0049,P004,"Struggled with poor price throughout. However, Loving the gaming, clearly a strong point. The performance is excellent and exceeded my expectations.",4,2024-11-27,user_546
+R0050,P004,The gaming is average for this segment.,3,2024-12-06,user_541
+R0051,P004,The price is disappointing and needs work.,1,2025-01-08,user_407
+R0052,P004,"Great build quality, one of the best I have used. However, The price is average for this segment.",4,2025-01-18,user_780
+R0053,P004,"The display is excellent and exceeded my expectations. Really impressed with the design, top notch. Loving the performance, clearly a strong point.",5,2025-02-14,user_770
+R0054,P004,"Really impressed with the software, top notch. Really impressed with the gaming, top notch.",5,2025-03-09,user_186
+R0055,P004,"Really impressed with the gaming, top notch. However, Not happy with the price at all.",3,2025-04-02,user_303
+R0056,P004,The camera performs wonderfully day to day. The gaming is excellent and exceeded my expectations.,5,2025-04-12,user_524
+R0057,P004,"Really impressed with the build quality, top notch. The software is excellent and exceeded my expectations.",5,2025-05-13,user_981
+R0058,P004,"Loving the build quality, clearly a strong point.",5,2025-05-23,user_151
+R0059,P004,"The battery performs wonderfully day to day. Loving the software, clearly a strong point.",5,2025-06-18,user_424
+R0060,P004,"The gaming is fine for the price. However, The build quality performs wonderfully day to day. Really impressed with the software, top notch.",4,2025-07-09,user_383
+R0061,P004,"Great performance, one of the best I have used. Great design, one of the best I have used. Loving the gaming, clearly a strong point.",5,2025-07-12,user_241
+R0062,P004,"Really impressed with the performance, top notch. The build quality performs wonderfully day to day.",5,2025-08-10,user_655
+R0063,P004,"The build quality performs wonderfully day to day. However, The camera is okay, nothing special. The battery is fine for the price.",4,2025-09-04,user_106
+R0064,P004,"The design is fine for the price. However, Loving the build quality, clearly a strong point.",4,2025-10-05,user_717
+R0065,P005,"The gaming performs wonderfully day to day. Great design, one of the best I have used.",5,2024-11-26,user_795
+R0066,P005,"Struggled with poor display throughout. However, The gaming performs wonderfully day to day. The battery is excellent and exceeded my expectations.",4,2024-11-27,user_758
+R0067,P005,The display performs wonderfully day to day. The gaming performs wonderfully day to day. The battery performs wonderfully day to day.,5,2024-12-24,user_870
+R0068,P005,"Loving the price, clearly a strong point. Great battery, one of the best I have used. The design is excellent and exceeded my expectations.",5,2025-01-29,user_767
+R0069,P005,Not happy with the performance at all.,1,2025-01-26,user_736
+R0070,P005,"The design is excellent and exceeded my expectations. Really impressed with the display, top notch.",5,2025-03-02,user_816
+R0071,P005,"The build quality is excellent and exceeded my expectations. Really impressed with the display, top notch.",5,2025-03-17,user_210
+R0072,P005,The price is fine for the price.,3,2025-04-10,user_832
+R0073,P005,"Great battery, one of the best I have used. However, The design is okay, nothing special.",4,2025-05-14,user_679
+R0074,P005,"Great build quality, one of the best I have used.",5,2025-05-11,user_618
+R0075,P005,"The performance is okay, nothing special. However, Great software, one of the best I have used.",4,2025-06-19,user_948
+R0076,P005,"Great display, one of the best I have used. Loving the software, clearly a strong point. The battery performs wonderfully day to day.",5,2025-07-02,user_945
+R0077,P005,"The build quality is okay, nothing special. However, The design performs wonderfully day to day.",4,2025-07-17,user_868
+R0078,P005,"Great software, one of the best I have used. Really impressed with the build quality, top notch. Great performance, one of the best I have used.",5,2025-08-10,user_386
+R0079,P005,"Really impressed with the keyboard, top notch. The performance performs wonderfully day to day.",5,2025-09-04,user_668
+R0080,P005,"The gaming is okay, nothing special. However, Really impressed with the keyboard, top notch.",4,2025-09-22,user_808
+R0081,P006,"Decent price, about what I expected. However, Loving the build quality, clearly a strong point.",4,2024-11-15,user_460
+R0082,P006,"Really impressed with the price, top notch. However, Loving the keyboard, clearly a strong point. Not happy with the display at all.",4,2024-12-01,user_321
+R0083,P006,"The price is easily the weakest part. However, Really impressed with the keyboard, top notch. Loving the performance, clearly a strong point.",4,2024-12-20,user_380
+R0084,P006,"Really impressed with the performance, top notch.",5,2025-01-25,user_989
+R0085,P006,"The battery performs wonderfully day to day. However, Really impressed with the performance, top notch. The price is easily the weakest part.",4,2025-02-10,user_216
+R0086,P006,"Loving the software, clearly a strong point.",5,2025-03-08,user_802
+R0087,P006,"Loving the display, clearly a strong point.",5,2025-03-17,user_187
+R0088,P006,"Struggled with poor battery throughout. However, Loving the software, clearly a strong point.",3,2025-04-10,user_561
+R0089,P006,"The price is okay, nothing special. However, The software is excellent and exceeded my expectations. Not happy with the display at all.",3,2025-05-09,user_316
+R0090,P006,"Loving the battery, clearly a strong point. The display is excellent and exceeded my expectations.",5,2025-05-22,user_561
+R0091,P006,"Great price, one of the best I have used. The performance performs wonderfully day to day. Really impressed with the battery, top notch.",5,2025-06-07,user_906
+R0092,P006,"Really impressed with the software, top notch. However, Not happy with the battery at all.",3,2025-06-21,user_161
+R0093,P006,"The price is fine for the price. However, The keyboard performs wonderfully day to day.",4,2025-07-18,user_612
+R0094,P006,"The gaming performs wonderfully day to day. However, Struggled with poor battery throughout. The price is excellent and exceeded my expectations.",4,2025-08-07,user_790
+R0095,P006,The price is average for this segment.,3,2025-09-04,user_631
+R0096,P006,"The price is fine for the price. However, The display could be much better for this product. Great keyboard, one of the best I have used.",3,2025-09-20,user_786
+R0097,P007,The display performs wonderfully day to day.,5,2024-11-14,user_778
+R0098,P007,"Great keyboard, one of the best I have used. However, The performance performs wonderfully day to day. The design is disappointing and needs work.",4,2024-12-16,user_990
+R0099,P007,"Loving the software, clearly a strong point. However, The performance could be much better for this product. The battery is average for this segment.",3,2024-12-24,user_662
+R0100,P007,"The price performs wonderfully day to day. Loving the gaming, clearly a strong point.",5,2025-01-30,user_345
+R0101,P007,The price is excellent and exceeded my expectations. The performance is excellent and exceeded my expectations.,5,2025-02-09,user_220
+R0102,P007,"The gaming is easily the weakest part. However, The price performs wonderfully day to day.",3,2025-03-03,user_349
+R0103,P007,"Loving the keyboard, clearly a strong point. However, The display is average for this segment. The design is easily the weakest part.",3,2025-04-01,user_908
+R0104,P007,"Great build quality, one of the best I have used. However, Loving the price, clearly a strong point. The software could be much better for this product.",4,2025-04-02,user_557
+R0105,P007,"The build quality could be much better for this product. However, Great keyboard, one of the best I have used. Really impressed with the price, top notch.",4,2025-05-07,user_492
+R0106,P007,"The software performs wonderfully day to day. However, The performance could be much better for this product.",3,2025-05-21,user_779
+R0107,P007,"Loving the gaming, clearly a strong point. The performance is excellent and exceeded my expectations.",5,2025-06-13,user_202
+R0108,P007,"Not happy with the performance at all. However, Great display, one of the best I have used. The design performs wonderfully day to day.",4,2025-07-09,user_182
+R0109,P007,The keyboard could be much better for this product. The software is disappointing and needs work.,1,2025-07-29,user_170
+R0110,P007,"The price performs wonderfully day to day. However, The design is disappointing and needs work.",3,2025-08-14,user_270
+R0111,P007,"The performance is excellent and exceeded my expectations. Great keyboard, one of the best I have used.",5,2025-09-02,user_249
+R0112,P007,"Really impressed with the keyboard, top notch. The software is excellent and exceeded my expectations.",5,2025-09-29,user_991
+R0113,P008,"Loving the build quality, clearly a strong point. The comfort performs wonderfully day to day. The battery performs wonderfully day to day.",5,2024-11-13,user_782
+R0114,P008,"Great software, one of the best I have used.",5,2024-12-16,user_659
+R0115,P008,"Struggled with poor sound throughout. However, The price performs wonderfully day to day.",3,2025-01-07,user_356
+R0116,P008,"The software could be much better for this product. However, The design performs wonderfully day to day. Loving the battery, clearly a strong point.",4,2025-01-14,user_816
+R0117,P008,The sound is excellent and exceeded my expectations. The comfort is excellent and exceeded my expectations.,5,2025-02-14,user_863
+R0118,P008,"Great software, one of the best I have used. Really impressed with the design, top notch. Really impressed with the battery, top notch.",5,2025-03-08,user_199
+R0119,P008,The design is excellent and exceeded my expectations.,5,2025-03-26,user_473
+R0120,P008,"The sound performs wonderfully day to day. Really impressed with the design, top notch.",5,2025-04-23,user_652
+R0121,P008,"Not happy with the build quality at all. However, The software performs wonderfully day to day.",3,2025-05-14,user_402
+R0122,P008,"The software is excellent and exceeded my expectations. Really impressed with the sound, top notch.",5,2025-05-30,user_841
+R0123,P008,"The software performs wonderfully day to day. Loving the build quality, clearly a strong point. Great design, one of the best I have used.",5,2025-06-20,user_866
+R0124,P008,"Great build quality, one of the best I have used. Really impressed with the price, top notch.",5,2025-07-04,user_125
+R0125,P008,"The build quality performs wonderfully day to day. However, The battery is easily the weakest part.",3,2025-07-30,user_518
+R0126,P008,The battery is excellent and exceeded my expectations.,5,2025-08-09,user_604
+R0127,P008,"Loving the sound, clearly a strong point.",5,2025-08-24,user_497
+R0128,P008,"Really impressed with the design, top notch. However, The comfort is okay, nothing special. Loving the build quality, clearly a strong point.",4,2025-09-23,user_386
+R0129,P009,The comfort performs wonderfully day to day.,5,2024-11-19,user_341
+R0130,P009,"Great sound, one of the best I have used. Great comfort, one of the best I have used.",5,2024-12-01,user_225
+R0131,P009,"The sound is okay, nothing special. However, Great comfort, one of the best I have used. Really impressed with the battery, top notch.",4,2025-01-10,user_678
+R0132,P009,"Really impressed with the sound, top notch. However, Not happy with the build quality at all.",3,2025-01-15,user_892
+R0133,P009,"Really impressed with the software, top notch. However, Struggled with poor build quality throughout.",3,2025-02-03,user_917
+R0134,P009,"Not happy with the sound at all. However, Really impressed with the comfort, top notch.",3,2025-03-06,user_431
+R0135,P009,"Really impressed with the battery, top notch.",5,2025-03-31,user_531
+R0136,P009,The comfort performs wonderfully day to day.,5,2025-04-22,user_470
+R0137,P009,"Loving the price, clearly a strong point.",5,2025-04-20,user_844
+R0138,P009,The price is disappointing and needs work. The comfort could be much better for this product.,1,2025-05-22,user_802
+R0139,P009,The price performs wonderfully day to day.,5,2025-06-01,user_182
+R0140,P009,"Great build quality, one of the best I have used. However, Decent battery, about what I expected.",4,2025-07-01,user_711
+R0141,P009,"The price is excellent and exceeded my expectations. However, The build quality is disappointing and needs work.",3,2025-07-30,user_766
+R0142,P009,"The price is fine for the price. However, The software performs wonderfully day to day.",4,2025-08-12,user_525
+R0143,P009,"Great design, one of the best I have used.",5,2025-08-31,user_256
+R0144,P009,"The sound is excellent and exceeded my expectations. However, The software is easily the weakest part. Struggled with poor comfort throughout.",2,2025-09-11,user_700
+R0145,P010,"The comfort performs wonderfully day to day. However, The sound is okay, nothing special.",4,2024-11-14,user_714
+R0146,P010,"Really impressed with the design, top notch. The sound performs wonderfully day to day.",5,2024-12-02,user_967
+R0147,P010,The design is easily the weakest part.,1,2024-12-19,user_880
+R0148,P010,Struggled with poor build quality throughout. Struggled with poor battery throughout.,1,2025-01-24,user_791
+R0149,P010,The build quality is easily the weakest part.,1,2025-01-26,user_284
+R0150,P010,"The comfort is easily the weakest part. However, Really impressed with the design, top notch.",3,2025-03-06,user_773
+R0151,P010,"Loving the sound, clearly a strong point. The battery performs wonderfully day to day. Really impressed with the software, top notch.",5,2025-03-19,user_419
+R0152,P010,"The software is okay, nothing special. However, Loving the build quality, clearly a strong point.",4,2025-03-30,user_790
+R0153,P010,The design performs wonderfully day to day.,5,2025-05-04,user_721
+R0154,P010,"The price is okay, nothing special. However, The design is excellent and exceeded my expectations. Loving the battery, clearly a strong point.",4,2025-05-24,user_639
+R0155,P010,"Loving the sound, clearly a strong point. Really impressed with the battery, top notch.",5,2025-06-08,user_316
+R0156,P010,The software is excellent and exceeded my expectations. The design performs wonderfully day to day.,5,2025-06-24,user_232
+R0157,P010,"Great build quality, one of the best I have used. The comfort is excellent and exceeded my expectations. The battery performs wonderfully day to day.",5,2025-07-12,user_982
+R0158,P010,"The build quality is fine for the price. However, The price performs wonderfully day to day.",4,2025-07-31,user_432
+R0159,P010,"Great software, one of the best I have used. The build quality is excellent and exceeded my expectations.",5,2025-08-27,user_546
+R0160,P010,"The build quality is easily the weakest part. However, Really impressed with the sound, top notch. The price is excellent and exceeded my expectations.",4,2025-09-26,user_622
+R0161,P011,"Really impressed with the performance, top notch. Really impressed with the design, top notch.",5,2024-11-13,user_302
+R0162,P011,"The build quality is disappointing and needs work. However, The display performs wonderfully day to day.",3,2024-12-09,user_872
+R0163,P011,"Great software, one of the best I have used. The build quality is excellent and exceeded my expectations. Great performance, one of the best I have used.",5,2025-01-10,user_381
+R0164,P011,"Great design, one of the best I have used.",5,2025-01-19,user_562
+R0165,P011,"Great battery, one of the best I have used.",5,2025-01-28,user_760
+R0166,P011,The build quality performs wonderfully day to day.,5,2025-03-02,user_694
+R0167,P011,Struggled with poor price throughout.,1,2025-03-28,user_292
+R0168,P011,"The build quality is excellent and exceeded my expectations. Great price, one of the best I have used.",5,2025-04-20,user_186
+R0169,P011,"The battery performs wonderfully day to day. Loving the display, clearly a strong point.",5,2025-04-24,user_472
+R0170,P011,"Great design, one of the best I have used. The price is excellent and exceeded my expectations.",5,2025-06-03,user_746
+R0171,P011,"The battery performs wonderfully day to day. Loving the design, clearly a strong point.",5,2025-06-03,user_441
+R0172,P011,"Decent build quality, about what I expected.",3,2025-06-28,user_771
+R0173,P011,"The display performs wonderfully day to day. However, Decent build quality, about what I expected. Loving the battery, clearly a strong point.",4,2025-07-12,user_761
+R0174,P011,"Really impressed with the build quality, top notch. However, The design is easily the weakest part. The battery could be much better for this product.",2,2025-08-06,user_331
+R0175,P011,"The display is excellent and exceeded my expectations. Loving the battery, clearly a strong point.",5,2025-09-12,user_639
+R0176,P011,"Loving the software, clearly a strong point.",5,2025-09-14,user_711
+R0177,P012,"Loving the display, clearly a strong point. However, The performance is average for this segment. The software is excellent and exceeded my expectations.",4,2024-11-18,user_473
+R0178,P012,"The price performs wonderfully day to day. Really impressed with the build quality, top notch.",5,2024-12-04,user_928
+R0179,P012,"Loving the performance, clearly a strong point. However, The display could be much better for this product. The design performs wonderfully day to day.",4,2025-01-01,user_640
+R0180,P012,"Great display, one of the best I have used. However, The performance performs wonderfully day to day. The build quality is okay, nothing special.",4,2025-01-27,user_966
+R0181,P012,"Really impressed with the design, top notch.",5,2025-02-03,user_560
+R0182,P012,"Really impressed with the performance, top notch. However, The price is easily the weakest part.",3,2025-02-16,user_524
+R0183,P012,The price is average for this segment.,3,2025-03-20,user_183
+R0184,P012,"The display is excellent and exceeded my expectations. However, The battery is easily the weakest part.",3,2025-04-23,user_249
+R0185,P012,"The battery could be much better for this product. However, Really impressed with the design, top notch.",3,2025-05-13,user_822
+R0186,P012,"The price is disappointing and needs work. However, Really impressed with the build quality, top notch. The battery is fine for the price.",3,2025-05-12,user_894
+R0187,P012,"Really impressed with the display, top notch. Loving the design, clearly a strong point.",5,2025-06-13,user_164
+R0188,P012,Struggled with poor performance throughout.,1,2025-07-06,user_116
+R0189,P012,"The software is excellent and exceeded my expectations. Really impressed with the display, top notch.",5,2025-07-28,user_526
+R0190,P012,"Great software, one of the best I have used. Loving the performance, clearly a strong point.",5,2025-08-17,user_619
+R0191,P012,The price is disappointing and needs work.,1,2025-09-09,user_496
+R0192,P012,The design is excellent and exceeded my expectations. The software is excellent and exceeded my expectations.,5,2025-10-04,user_695
+R0193,P001,"Really impressed with the camera, top notch.",5,2025-09-26,user_200
+R0194,P001,"Really impressed with the camera, top notch.",5,2025-09-26,user_201
+R0195,P001,"Really impressed with the camera, top notch.",5,2025-09-26,user_202
