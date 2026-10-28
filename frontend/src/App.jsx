@@ -1,48 +1,63 @@
-import { useEffect, useState } from 'react'
-import { getHealth, getProducts } from './services/api'
-import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import ChatWidget from './components/ChatWidget'
+import ProtectedRoute from './components/ProtectedRoute'
 
-function App() {
-  const [health, setHealth] = useState(null)
-  const [products, setProducts] = useState([])
-  const [error, setError] = useState(null)
+import Home from './pages/Home'
+import Search from './pages/Search'
+import ProductAnalysis from './pages/ProductAnalysis'
+import Reviews from './pages/Reviews'
+import Recommendations from './pages/Recommendations'
+import Compare from './pages/Compare'
+import Trends from './pages/Trends'
+import Rankings from './pages/Rankings'
+import Personalized from './pages/Personalized'
+import RatingPredict from './pages/RatingPredict'
+import Authenticity from './pages/Authenticity'
+import PriceTracking from './pages/PriceTracking'
+import Notifications from './pages/Notifications'
+import Wishlist from './pages/Wishlist'
+import Alerts from './pages/Alerts'
+import Login from './pages/Login'
+import Register from './pages/Register'
+import Account from './pages/Account'
+import Assistant from './pages/Assistant'
+import NotFound from './pages/NotFound'
 
-  useEffect(() => {
-    getHealth().then(setHealth).catch((e) => setError(e.message))
-    getProducts().then(setProducts).catch((e) => setError(e.message))
-  }, [])
-
+export default function App() {
   return (
-    <main className="app">
-      <h1>Product Review Analysis & Recommendation</h1>
-      <p className="status">
-        Backend:{' '}
-        {error ? (
-          <span className="bad">unreachable ({error})</span>
-        ) : health ? (
-          <span className="ok">
-            {health.status} · MongoDB {health.mongodb ? 'connected' : 'offline'}
-          </span>
-        ) : (
-          'checking…'
-        )}
-      </p>
-
-      <h2>Products</h2>
-      {products.length === 0 && !error ? (
-        <p>Loading products…</p>
-      ) : (
-        <ul className="products">
-          {products.map((p) => (
-            <li key={p.product_id}>
-              <strong>{p.name}</strong> — ${p.price} · ⭐ {p.rating}
-              <span className="cat"> ({p.category})</span>
-            </li>
-          ))}
-        </ul>
-      )}
-    </main>
+    <>
+      <Navbar />
+      <main className="container page">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<Search />} />
+          <Route path="/product/:id" element={<ProductAnalysis />} />
+          <Route path="/product/:id/reviews" element={<Reviews />} />
+          <Route path="/product/:id/trends" element={<Trends />} />
+          <Route path="/product/:id/authenticity" element={<Authenticity />} />
+          <Route path="/product/:id/price" element={<PriceTracking />} />
+          <Route path="/recommend" element={<Recommendations />} />
+          <Route path="/compare" element={<Compare />} />
+          <Route path="/rankings" element={<Rankings />} />
+          <Route path="/rating-predict" element={<RatingPredict />} />
+          <Route path="/assistant" element={<Assistant />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/personalized" element={<ProtectedRoute><Personalized /></ProtectedRoute>} />
+          <Route path="/wishlist" element={<ProtectedRoute><Wishlist /></ProtectedRoute>} />
+          <Route path="/alerts" element={<ProtectedRoute><Alerts /></ProtectedRoute>} />
+          <Route path="/notifications" element={<ProtectedRoute><Notifications /></ProtectedRoute>} />
+          <Route path="/account" element={<ProtectedRoute><Account /></ProtectedRoute>} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <footer className="footer">
+        <div className="container">
+          ReviewLeaf · Product Review Analysis & Recommendation. Demo data for development.
+        </div>
+      </footer>
+      <ChatWidget />
+    </>
   )
 }
-
-export default App

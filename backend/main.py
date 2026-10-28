@@ -1,6 +1,7 @@
 """FastAPI application entry point."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from backend import config
@@ -37,8 +38,17 @@ def health():
 
 
 # Serve the built React frontend as a single app (one port) when it exists.
-# API routes above take precedence; unknown non-API paths fall back to index.html.
+# Static assets are served directly; any other non-API path returns index.html
+# so client-side routing (deep links / refresh) works.
 if config.FRONTEND_DIST.exists():
-    app.mount(
-        "/", StaticFiles(directory=config.FRONTEND_DIST, html=True), name="frontend"
-    )
+    app.mount("/assets", StaticFiles(directory=config.FRONTEND_DIST / "assets"), name="assets")
+
+    @app.get("/{full_path:path}")
+    def spa(full_path: str):
+        if full_path.startswith("api/") or full_path == "health":
+            from fastapi import HTTPException
+            raise HTTPException(status_code=404, detail="Not found")
+        candidate = (config.FRONTEND_DIST / full_path)
+        if full_path and candidate.is_file():
+            return FileResponse(candidate)
+        return FileResponse(config.FRONTEND_DIST / "index.html")
